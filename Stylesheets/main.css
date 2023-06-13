@@ -41,6 +41,18 @@
     font-weight: bold;
  }
 
+ .navbar-nav{
+   text-align: center;
+ }
+
+ .nav-link{
+   color: whitesmoke;
+ }
+
+ .nav-link:hover{
+   color: #cb4744;
+ }
+
  button{
    background-color: #cb4744 !important;
    border-color: #cb4744 !important; 
@@ -59,9 +71,17 @@
 
 
 .carousel-item{
-    height: 100vh;
+    height: auto;
     margin-top: 100px;
 }
+
+
+
+@media screen and (max-width: 359px) {
+   .hideInSmallScreens {
+     display: none;
+   }
+ }
 
 
 
