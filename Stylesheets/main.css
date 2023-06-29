@@ -11,6 +11,7 @@
 
  
 
+
  h1{
     margin: 10px;
     text-align: center;
@@ -39,6 +40,11 @@
  p span.green{
     color: #138933;
     font-weight: bold;
+ }
+
+ p.aboutUs{
+   text-align: justify;
+   margin-top: 10px;
  }
 
  .navbar-nav{
